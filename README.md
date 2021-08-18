@@ -1,6 +1,7 @@
 # 中文命名实体识别
 
-##文件结构
+## 文件结构
+```
     named_entity_recognition
     |____ ckpts                   #训练好的模型                          
     |____ datas                   #数据集
@@ -12,8 +13,8 @@
     |____ main.py                 #训练并评估模型
     |____ predict.py              #预测代码，使用训练好的模型识别一句话中的命名实体
     |____ test.py                 #加载并评估已有模型
-    
-##环境    
+```
+## 环境    
 numpy==1.20.2
 
 sklearn_crfsuite==0.3.6
